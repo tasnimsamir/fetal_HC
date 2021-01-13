@@ -10,3 +10,14 @@ Head circumference is a fetal biometric that is used to estimate gestational age
 
 Dataset: the training dataset of HC18.
 it is public dataset and you can get it from this link: https://hc18.grand-challenge.org/ 
+
+The project is implemented on kaggle and written using Pytorch platform.
+
+For Regression:
+1-  Softmax Layer is replaced with Linear regression Layer.
+2- Regression loss functions are used as:
+    1- Mean Square Error (MSE)
+    2- Mean Absolute Error (MAE)
+    3- Huber Loss (HL)
+
+The performance of the model is measured with MAE.

@@ -21,3 +21,6 @@ For Regression:
     3- Huber Loss (HL)
 
 The performance of the model is measured with MAE.
+
+## Code demo:
+you can run the code directly on jupyter notebook with enabled GPU.
